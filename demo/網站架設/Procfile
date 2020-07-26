@@ -1,0 +1,2 @@
+web gunicorn app:app2
+/* 主要檔案名稱 : 主要檔案內的Flask名稱  */

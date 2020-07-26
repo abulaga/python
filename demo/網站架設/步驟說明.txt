@@ -1,0 +1,25 @@
+# 步驟:
+# 1.安裝Flask套件   (pip insall flask)
+# 2.建立專案資料夾
+# 3.啟動伺服器,測試網站運作
+
+雲端主機(Heroku)
+1.建立Flask專案描述檔案
+    runtime.txt(描述使用的python環境)
+    requirements.txt(描述程式用作所需要的套件)
+    Procfile(告訴Heroku如何執行程式)
+2.安裝Git(版本控管工具)
+    到GOOGLE上搜尋下載
+3.到Heroku註冊帳號,建立應用程式
+4.安裝Heroku命令列工具
+    Heroku CLI
+5.將程式部屬到Heorku App並測試(以下再命令列執行)
+    登入
+    $ heroku login
+    初始化專案(只需要做一次,專案名稱自行替換)
+    $ heroku git:clone -a python-training-jy
+    $ cd python-training-jy
+    更新
+    $ git add .
+    $ git commit -am "更新訊息"
+    $ git push heroku master
